@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pat.obd_scanner.activity.MainActivity">
+    <item
+        android:id="@+id/triplList"
+        android:icon="@drawable/icons8_map"
+        android:title="Trip List"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/troubleCodes"
+        android:icon="@drawable/icons8_important"
+        android:title="Trouble Codes"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/icons8_automatic"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"/>
+</menu>
